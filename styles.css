@@ -1,0 +1,1140 @@
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url("Inter/Inter-Thin-BETA.woff2?v=3.11") format("woff2"),
+         url("Inter-Thin-BETA.woff?v=3.11") format("woff");
+  }
+  @font-face {
+    font-family: 'Inter';
+    font-style:  italic;
+    font-weight: 100;
+    font-display: swap;
+    src: url("Inter/Inter-ThinItalic-BETA.woff2?v=3.11") format("woff2"),
+         url("Inter-ThinItalic-BETA.woff?v=3.11") format("woff");
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url("Inter/Inter-ExtraLight-BETA.woff2?v=3.11") format("woff2"),
+         url("Inter-ExtraLight-BETA.woff?v=3.11") format("woff");
+  }
+  @font-face {
+    font-family: 'Inter';
+    font-style:  italic;
+    font-weight: 200;
+    font-display: swap;
+    src: url("Inter/Inter-ExtraLightItalic-BETA.woff2?v=3.11") format("woff2"),
+         url("Inter-ExtraLightItalic-BETA.woff?v=3.11") format("woff");
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url("Inter/Inter-Light-BETA.woff2?v=3.11") format("woff2"),
+         url("Inter-Light-BETA.woff?v=3.11") format("woff");
+  }
+  @font-face {
+    font-family: 'Inter';
+    font-style:  italic;
+    font-weight: 300;
+    font-display: swap;
+    src: url("Inter/Inter-LightItalic-BETA.woff2?v=3.11") format("woff2"),
+         url("Inter-LightItalic-BETA.woff?v=3.11") format("woff");
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("Inter/Inter-Regular.woff2?v=3.11") format("woff2"),
+         url("Inter-Regular.woff?v=3.11") format("woff");
+  }
+  @font-face {
+    font-family: 'Inter';
+    font-style:  italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url("Inter/Inter-Italic.woff2?v=3.11") format("woff2"),
+         url("Inter-Italic.woff?v=3.11") format("woff");
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url("Inter/Inter-Medium.woff2?v=3.11") format("woff2"),
+         url("Inter-Medium.woff?v=3.11") format("woff");
+  }
+  @font-face {
+    font-family: 'Inter';
+    font-style:  italic;
+    font-weight: 500;
+    font-display: swap;
+    src: url("Inter/Inter-MediumItalic.woff2?v=3.11") format("woff2"),
+         url("Inter-MediumItalic.woff?v=3.11") format("woff");
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("Inter/Inter-SemiBold.woff2?v=3.11") format("woff2"),
+         url("Inter-SemiBold.woff?v=3.11") format("woff");
+  }
+  @font-face {
+    font-family: 'Inter';
+    font-style:  italic;
+    font-weight: 600;
+    font-display: swap;
+    src: url("Inter/Inter-SemiBoldItalic.woff2?v=3.11") format("woff2"),
+         url("Inter-SemiBoldItalic.woff?v=3.11") format("woff");
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("Inter/Inter-Bold.woff2?v=3.11") format("woff2"),
+         url("Inter-Bold.woff?v=3.11") format("woff");
+  }
+  @font-face {
+    font-family: 'Inter';
+    font-style:  italic;
+    font-weight: 700;
+    font-display: swap;
+    src: url("Inter/Inter-BoldItalic.woff2?v=3.11") format("woff2"),
+         url("Inter-BoldItalic.woff?v=3.11") format("woff");
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 800;
+    font-display: swap;
+    src: url("Inter/Inter-ExtraBold.woff2?v=3.11") format("woff2"),
+         url("Inter-ExtraBold.woff?v=3.11") format("woff");
+  }
+  @font-face {
+    font-family: 'Inter';
+    font-style:  italic;
+    font-weight: 800;
+    font-display: swap;
+    src: url("Inter/Inter-ExtraBoldItalic.woff2?v=3.11") format("woff2"),
+         url("Inter-ExtraBoldItalic.woff?v=3.11") format("woff");
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url("Inter/Inter-Black.woff2?v=3.11") format("woff2"),
+         url("Inter-Black.woff?v=3.11") format("woff");
+  }
+  @font-face {
+    font-family: 'Inter';
+    font-style:  italic;
+    font-weight: 900;
+    font-display: swap;
+    src: url("Inter/Inter-BlackItalic.woff2?v=3.11") format("woff2"),
+         url("Inter-BlackItalic.woff?v=3.11") format("woff");
+  }
+  
+  /* -------------------------------------------------------
+  Variable font.
+  Usage:
+  
+    html { font-family: 'Inter', sans-serif; }
+    @supports (font-variation-settings: normal) {
+      html { font-family: 'Inter var', sans-serif; }
+    }
+  */
+  @font-face {
+    font-family: 'Inter var';
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: normal;
+    font-named-instance: 'Regular';
+    src: url("Inter/Inter-roman.var.woff2?v=3.11") format("woff2");
+  }
+  @font-face {
+    font-family: 'Inter var';
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: italic;
+    font-named-instance: 'Italic';
+    src: url("Inter/Inter-italic.var.woff2?v=3.11") format("woff2");
+  }
+  
+  
+  /* --------------------------------------------------------------------------
+  [EXPERIMENTAL] Multi-axis, single variable font.
+  
+  Slant axis is not yet widely supported (as of February 2019) and thus this
+  multi-axis single variable font is opt-in rather than the default.
+  
+  When using this, you will probably need to set font-variation-settings
+  explicitly, e.g.
+  
+    * { font-variation-settings: "slnt" 0deg }
+    .italic { font-variation-settings: "slnt" 10deg }
+  
+  */
+  @font-face {
+    font-family: 'Inter var experimental';
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: oblique 0deg 10deg;
+    src: url("Inter/Inter.var.woff2?v=3.11") format("woff2");
+  }
+  
+
+/*GLOBAL*/
+
+body {
+    background-color: #1F1F1F;
+    color: #9E9FA0;
+    font-family: 'Inter';
+    overflow-x: hidden;
+}
+
+p {
+    font-size: 14px;
+    text-align: justify;
+}
+
+h2 {
+    font-size: 24px;
+    color: #EEF0F2;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.my-container {
+    z-index: 99;
+    padding: 0;
+}
+
+.my-col {
+    padding: 100px 0 50px 0;
+}
+
+.my-row {
+    margin: 0;
+}
+
+.three-container {
+    width: 100%;
+    height: 100%;
+}
+
+.other-hidden {
+    display: none;
+}
+
+.tablet-hidden {
+    display: flex;
+}
+
+.hidden-992 {
+    display: none;
+}
+
+/*NAVIGACIJA*/
+
+nav {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background: #1F1F1F;
+    text-transform: uppercase;
+    z-index: 10000;
+}
+
+.nav-list {
+    padding: 10px 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 20px;
+    max-width: 1144px;
+    margin: auto;
+}
+
+.nav-list li {
+    list-style: none;
+}
+
+.nav-list a:hover {
+    color: #9E9FA0;
+    text-decoration: none;
+}
+
+.nav-logo {
+    font-size: 18px;
+    color: #EEF0F2;
+    font-weight: normal;
+    float: left;
+}
+
+.nav-links-container {
+    display: flex;
+    justify-content: space-between;
+    width: 33%;
+}
+
+.nav-links {
+    font-size: 18px;
+    color: #EEF0F2;
+    font-weight: normal;
+}
+
+.burger {
+    display: none;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .nav-list {
+        max-width: 964px;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .nav-list {
+        max-width: 724px;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-line {
+        display: none;
+    }
+}
+
+
+/*
+.my-nav {
+    margin: 0 -2px;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0;
+    background-color: #1F1F1F;
+    border-left: 2px solid #1F1F1F;
+    border-right: 2px solid #1F1F1F;
+}
+
+.brand {
+    float: left;
+}
+
+.my-a {
+    color: #EEF0F2;
+}
+
+.my-a:hover {
+    color: #9E9FA0;
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgba(238,240,242, 0.9);
+    border-color: transparent;
+}*/
+
+a.middle {
+    position: relative;
+}
+
+a.middle:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -3px;
+    left: 0;
+    background-color: #9E9FA0;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+
+a.middle:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+/*LOGO*/
+
+.logo {
+    height: 100vh;
+}
+
+/*USLUGE*/
+
+.usluga-naslov {
+    font-size: 20px;
+    color: #EEF0F2;
+    margin: 10px 0 30px 0;
+}
+
+.padding-usluge {
+    padding-right: 10%;
+}
+
+.donje-usluge {
+    padding: 20px 10% 80px 0;
+}
+
+/*PORTFOLIO*/
+
+.portfolio {
+    padding-top: 150px;
+}
+
+/*SLIDER*/
+
+.slider {
+    height: 650px;
+    padding: 75px 0;
+}
+
+#image-carousel {
+  height: 510px;
+  width: 292px;
+  border-radius: 0;
+}
+
+#image-carousel .handle {
+  width: 500%;
+  height: 100%;
+  border-radius: 0;
+  padding-left: 0px;
+  overflow: hidden;
+  margin-bottom: 0;
+}
+
+.back-color {
+    position: absolute;
+    background-color: #2B2B2B;
+    width: 292px;
+    height: 510px;
+    opacity: 1;
+}
+
+#image-carousel .handle .slide {
+  float: left;
+  position: absolute;
+  width: 25%;
+  height: 510px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size:cover;
+  list-style:none;
+  opacity: 0.5;
+  transition: opacity 0.3s ease-in;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#image-carousel .handle .slide .info {
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#image-carousel .handle .slide .info p {
+    color: #EEF0F2;
+    background: #1F1F1F;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+#image-carousel .handle .slide:hover {
+    opacity: 1;
+}
+
+#image-carousel .handle .slide:hover .info {
+    opacity: 1;
+}
+
+
+
+/*KONTAKT*/
+
+#mejl {
+    color: #EEF0F2;
+    text-decoration: none;
+}
+
+.kontakt {
+    text-align: center;
+    padding-top: 200px;
+}
+
+.kontakt > p {
+    text-align: center;
+}
+
+.produced {
+    margin-top: 40%;
+}
+
+.sema {
+    color: #EEF0F2;
+}
+
+#produce {
+    color: #EEF0F2;
+    text-decoration: none;
+}
+
+.social {
+    display: flex;
+    padding: 35px 15px;
+}
+
+.mobile-social {
+    width: 50px;
+    height: 50px;
+}
+
+.kvadrat {
+    display: flex;
+    justify-content: space-between;
+}
+
+h5 {
+    text-align: center;
+    margin-top: 20%;
+    font-size: 14px;
+    font-weight: normal;
+    padding-bottom: 15px;
+}
+
+.mobile-social > h4 {
+    display: none;
+}
+
+/*KRSOVI*/
+
+.cross {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    z-index: 100;
+}
+
+.top-left {
+    top: -8px;
+    left: -8px;
+}
+
+.top-right {
+    top: -8px;
+    right: -8px;
+}
+
+.bottom-left {
+    bottom: -8px;
+    left: -8px;
+}
+
+.bottom-right {
+    bottom: -8px;
+    right: -8px;
+}
+
+/*VERTIKALNE LINIJE*/
+
+.v-container {
+    margin-left: -570px;
+    left: 50%;
+    padding: 0;
+    position: fixed;
+    z-index: -10;
+    height: 100vh;
+    top: 0;
+}
+
+.v-row {
+    border-left: 2px solid #2B2B2B;
+    border-right: 2px solid #2B2B2B;
+    margin-left: -2px;
+    margin-right: -2px;
+}
+
+.v-lines {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+.left-line {
+    left: -2px;
+    border-left: 2px solid #2B2B2B;
+}
+
+.right-line {
+    right: -2px;
+    border-right: 2px solid #2B2B2B;
+}
+
+@media only screen and (max-width: 1200px) {
+    .v-container {
+        margin-left: -480px;
+        left: 50%;
+        padding: 0;
+        position: fixed;
+        z-index: -10;
+        height: 100vh;
+        top: 0;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .v-container {
+        margin-left: -360px;
+        left: 50%;
+        padding: 0;
+        position: fixed;
+        z-index: -10;
+        height: 100vh;
+        top: 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .v-container {
+        margin-left: -270px;
+        left: 50%;
+        padding: 0;
+        position: fixed;
+        z-index: -10;
+        height: 100vh;
+        top: 0;
+    }
+}
+
+/*HORIZONTALNE LINIJE*/
+
+.h-lines {
+    position: absolute;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #2B2B2B;
+}
+
+.h-margin {
+    margin-top: -2px;
+}
+
+.nav-line {
+    position: absolute;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #2B2B2B;
+    top: 40px;
+}
+
+/*MEDIA
+------------------------------------------*/
+
+
+/*
+    VELICINA EKRANA DO 992px
+    TABLETI
+*/
+
+@media only screen and (max-width: 992px) {
+
+    /*MISC*/
+
+    .tablet-hidden {
+        display: none;
+    }
+
+    .other-hidden {
+        display: flex;
+    }
+
+    .hidden-768 {
+        display: none;
+    }
+
+    .unhide {
+        display: block;
+    }
+
+    /*NAVIGACIJA*/
+
+    .nav-links-container {
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+    }
+
+    /*USLUGE*/
+
+    .padding-usluge {
+        display: inline-block;
+    }
+
+    .mid-padding {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+    .tablet-donje-usluge {
+        padding: 50px 10% 80px 0;
+    }
+
+    /*SLIDER*/
+
+    .slider {
+        height: 350px;
+        padding-top: 35px;
+    }
+    
+    #image-carousel {
+      height: 275px;
+      width: 210px;
+      border-radius: 0;
+    }
+    
+    #image-carousel .handle {
+      width: 500%;
+      height: 100%;
+      border-radius: 0;
+      padding-left: 0px;
+      overflow: hidden;
+      margin-bottom: 0;
+    }
+    
+    #image-carousel .handle .slide {
+      float: left;
+      position: absolute;
+      width: 25%;
+      height: 200px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size:cover;
+      list-style:none;
+      opacity: 1;
+    }
+    
+    #image-carousel .handle .touch-info {
+        display: flex;
+        justify-content: start;
+        align-items: flex-start;
+        width: 210px;
+        position: absolute;
+        top: 215px;
+        left: 0;
+        text-align: left;
+        opacity: 1;
+    }
+    
+    #image-carousel .handle .touch-info p {
+        color: #EEF0F2;
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    /*KONTAKT*/
+
+    .social {
+        display: flex;
+        padding: 35px 25%;
+    }
+}
+
+/*
+    VELICINA EKRANA DO 768px
+    MOBILNI PORTRAIT I LANDSCAPE
+*/
+
+@media only screen and (max-width: 768px) {
+
+    .hidden-576 {
+        display: none;
+    }
+
+    .unhide {
+        display: block;
+    }
+
+    /*NAVIGACIJA*/
+
+    .nav-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        top: 0;
+        left: 0px;
+        background-color: #0F0F0F ;
+        z-index: 201;
+        position: fixed;
+        height: 100vh;
+        width: 100vw;
+        transform: translateX(100%);
+        transition: transform 0.3s ease;
+    }
+
+    .nav-list li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5vh auto;
+        opacity: 0;
+        width: 100%;
+    }
+
+    .nav-logo {
+        font-size: 18px;
+        color: #EEF0F2;
+        font-weight: normal;
+        margin-left: -20px;
+    }
+
+    .nav-links-container {
+        flex-direction: column;
+        width: 100%;
+        left: -10px;
+        text-align: center;
+    }
+
+    .nav-links{
+        left: -10px;
+    }
+
+    .burger {
+        display: block;
+        position: fixed;
+        top: 15px;
+        right: 15px;
+        z-index: 202;
+    }
+
+    .burger > div {
+        width: 25px;
+        height: 3px;
+        background-color: #EEF0F2;
+        margin: 5px;
+        transition: all 0.3s ease;
+    }
+
+    .nav-active {
+        transform: translateX(0%);
+    }
+
+    @keyframes navLinkFade {
+        from {
+            opacity: 0;
+            transform: translateX(250px);
+        } to {
+            opacity: 2;
+            transform: translateX(-50px);
+        }
+    }
+
+    .toggle .line1 {
+        transform: rotate(-45deg) translate(-5px,6px);
+    }
+    .toggle .line2 {
+        opacity: 0;
+    }
+    .toggle .line3 {
+        transform: rotate(45deg) translate(-5px,-6px);
+    }
+
+    /*SLIDER*/
+
+    .slider {
+        height: 350px;
+        padding-top: 35px;
+    }
+    
+    #image-carousel {
+      height: 275px;
+      width: 210px;
+      border-radius: 0;
+    }
+    
+    #image-carousel .handle {
+      width: 500%;
+      height: 100%;
+      border-radius: 0;
+      padding-left: 0px;
+      overflow: hidden;
+      margin-bottom: 0;
+    }
+    
+    #image-carousel .handle .slide {
+      float: left;
+      position: absolute;
+      width: 25%;
+      height: 200px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size:cover;
+      list-style:none;
+      opacity: 1;
+    }
+    
+    #image-carousel .handle .touch-info {
+        width: 210px;
+        position: absolute;
+        bottom: -20px;
+        left: 0;
+        text-align: left;
+        opacity: 1;
+    }
+    
+    #image-carousel .handle .touch-info p {
+        color: #EEF0F2;
+        font-size: 20px;
+        text-align: justify;
+    }
+}
+
+/*
+    VELICINA EKRANA DO 576px
+    MOBILNI PORTRAIT
+*/
+
+@media only screen and (max-width: 576px) {
+
+    /*GLOBAL*/
+    body {
+        font-family: inter;
+    }
+
+    h1,h2,h3,h4 {
+        font-weight: 700;
+    }
+
+    .v-container {
+        display: none;
+    }
+
+    .cross {
+        display: none;
+    }
+
+    .bord-b-hidden {
+        margin-bottom: -2px;
+    }
+
+    .mobile-hidden {
+        display: none;
+    }
+
+    .tablet-hidden {
+        display: flex;
+    }
+
+    .other-hidden {
+        display: none;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .my-container {
+        border-right: 0;
+    }
+    
+    .my-col {
+        border: 0;
+        border-bottom: 2px solid #2B2B2B;
+        padding: 0;
+    }
+
+    .hidden-0 {
+        display: none;
+    }
+
+    .unhide {
+        display: block;
+    }
+
+    /*LOGO*/
+
+    .logo {
+        border-bottom: 0;
+    }
+
+    /*USLUGE*/
+
+    .usluge-head {
+        padding: 0 30px;
+        border-bottom: 0;
+    }
+    
+    .usluga-naslov {
+        margin: 10px 0;
+    }
+    
+    .padding-usluge {
+        padding: 5px 30px 0 30px;
+        height: auto;
+    }
+
+    .brojevi {
+        position: absolute;
+        float: left;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 20px;
+        margin: 10px 0;
+    }
+
+    .padding-usluge > h1 {
+        float: left;
+        padding-left: 30px;
+        line-height: 20px;
+        width: 100%;
+    }
+
+    .padding-usluge > p {
+        float: left;
+    }
+
+    /*PORTFOLIO*/
+
+    .portfolio {
+        padding: 100px 35px 5px 35px;
+    }
+
+    /*SLIDER*/
+
+    .slider {
+        height: 350px;
+        padding-top: 35px;
+    }
+    
+    #image-carousel {
+      height: 275px;
+      width: 210px;
+      border-radius: 0;
+      margin-left: 35px;
+    }
+    
+    #image-carousel .handle {
+      width: 500%;
+      height: 100%;
+      border-radius: 0;
+      padding-left: 0px;
+      overflow: hidden;
+      margin-bottom: 0;
+    }
+    
+    #image-carousel .handle .slide {
+      float: left;
+      position: absolute;
+      width: 25%;
+      height: 200px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size:cover;
+      list-style:none;
+      opacity: 1;
+    }
+    
+    #image-carousel .handle .touch-info {
+        width: 210px;
+        position: absolute;
+        bottom: -20px;
+        left: 0;
+        text-align: left;
+        opacity: 1;
+    }
+    
+    #image-carousel .handle .touch-info p {
+        color: #EEF0F2;
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    /*KONTAKT*/
+
+    .kontakt {
+        padding: 125px 35px 0 35px;
+    }
+
+    .kontakt > p, h2 {
+        text-align: left;
+    }
+    
+    .social {
+        padding: 15px 0;
+        display: block;
+    }
+    
+    .kvadrat {
+        float: left;
+        padding: 0;
+        width: 36px;
+        height: 36px;
+    }
+
+    .mobile-social {
+        width: 100%;
+        height: auto;
+        text-decoration: none;
+        color: #EEF0F2;
+        display: inline-block;
+        padding-bottom: 30px;
+    }
+
+    .mobile-social > h4 {
+        padding: 0;
+        margin: 0;
+        float: left;
+        padding-left: 20px;
+        line-height: 36px;
+        display: unset;
+        font-weight: normal;
+        font-size: 18px;
+    }
+
+    h5 {
+        text-align: center;
+        margin-top: 20%;
+        font-size: 14px;
+        font-weight: normal;
+        padding-bottom: 15px;
+    }
+    
+    .sema {
+        color: #EEF0F2;
+    }
+}
